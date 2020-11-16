@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Application descriptor extended schema",
+  "readOnly": false,
+  "type": "array",
+  "items": {
+    "type": "object",
+    "allOf": [{"$ref": "https://raw.githubusercontent.com/alps-io/spec/master/schemas/spec/descriptor.json"}],
+    "properties": {
+    }
+  }
+}

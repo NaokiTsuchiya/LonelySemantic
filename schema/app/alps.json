@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Application root level extended schema",
+  "readOnly": false,
+  "allOf": [{"$ref": "https://raw.githubusercontent.com/alps-io/spec/master/schemas/spec/alps.json"}],
+  "properties": {
+  },
+  "additionalProperties": false
+}

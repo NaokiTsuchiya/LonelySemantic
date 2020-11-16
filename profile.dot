@@ -1,0 +1,18 @@
+digraph application_state_diagram {
+  graph [
+    labelloc="b";
+    fontname="Helvetica"
+    label="";
+    URL="index.html"
+  ];
+  node [shape = box, style = "bold,filled"];
+
+    User [style=solid, margin=0.02, label=<<table cellspacing="0" cellpadding="5" cellborder="1" border="0"><tr><td bgcolor="#dddddd">User<br />(name)<br /></td></tr></table>>,shape=box URL="docs/semantic.User.html"]
+    name [style=solid, margin=0.02, label=<<table cellspacing="0" cellpadding="5" cellborder="1" border="0"><tr><td bgcolor="#dddddd">name<br />(giveName)<br />(familyName)<br /></td></tr></table>>,shape=box URL="docs/semantic.name.html"]
+
+    Index->User [label = "user (safe)" URL="docs/safe.user.html"];
+    User->Index [label = "index (safe)" URL="docs/safe.index.html"];
+
+    Index [URL="docs/semantic.Index.html"]
+
+}

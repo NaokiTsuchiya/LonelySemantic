@@ -1,0 +1,18 @@
+{
+  "$schema": "schema/alps.json",
+  "alps": {
+    "descriptor": [
+      {
+        "id": "familyName",
+        "ref": "https://schema.org/familyName",
+        "type": "semantic"
+      }
+    ]
+  },
+  "link": [
+    {
+      "rel": "parent",
+      "href": "semantic.name.json"
+    }
+  ]
+}

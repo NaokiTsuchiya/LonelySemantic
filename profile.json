@@ -11,7 +11,8 @@
             "rt": "#User",
             "type": "safe"
           }
-        ]
+        ],
+        "custom": "custom"
       },
       {
         "id": "User",
